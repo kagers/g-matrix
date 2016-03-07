@@ -77,6 +77,7 @@ def matrix_mult( m1, m2 ):
                 m3[i][j]+=m1[i][k]*m2[k][j]
     return m3
 
+'''
 print_matrix(make_translate(1,2,3))
 print
 print_matrix(make_scale(4,5,6))
@@ -112,3 +113,4 @@ print
 print_matrix(scalar_mult(m1,2))
 print
 print_matrix(matrix_mult(m1,m2))
+'''
